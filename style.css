@@ -8,20 +8,24 @@
         box-sizing: border-box;
     }
 
+
+    @media (min-width: 50px) and (max-width: 1080px) { 
+
     /*----------------- HEADER ----------------*/
     header {
         display: block;
         margin: 0 auto;
         padding: 20px;
         background-color: #03486a;
+        height: 1520px;
+        
     }
 
     .menu-menu{
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    
+        display: block;
+       text-align: center;
+        
         padding: 20px;
     
 
@@ -29,10 +33,7 @@
     #titulado {
         color: #ffd500;
         margin: 20px;
-        margin-left: 200px;
-
-        position: relative;
-        top: -350px;
+        text-align: center;
     }
 
     a {
@@ -43,26 +44,20 @@
 
 
     .menu-principal {
-        display: flex;
-        align-items: center; 
-        justify-content: flex-end;
+        display: block;
+        
         list-style-type: none;
         width: 100%;
        
     }
-
-    .menu-principal a:hover {
-        background-color: #ffd500;
-        transition-duration: 30ms;
-        border-radius: 50px;
-    }
+    
 
     .contenedor {
         display: block;
         margin: 0 auto;
         
         margin-top: 30px;
-        margin-left: 300px;
+        
        
         line-height: 30px;
 
@@ -77,16 +72,14 @@
 
     .otro-espacio {
 
-        margin-bottom: 60px;
+        padding: 10px;
     }
 
     .imagen2 {
         margin: 5px;
         padding: 10px;
 
-        position: relative;
-        right: 175px;
-        top: 10px;
+      
     }
 
     .cuadro1 {
@@ -98,28 +91,22 @@
         border-radius: 15px;
         margin: 20px;
 
-        margin-left: 200px;
-        margin-right: 100px;
-
-        position: relative;
-        top: -350px;
+       
         
     }
 
     .imagenes-en-fila {
 
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
-        margin-left: 200px;
-        margin-right: 500px;
+        flex-wrap: wrap;
         background-color: #ffd500;
         padding: 10px;
         border-radius: 10px;
-        width: 50%;
+        width: 100%;
 
-        position: relative;
-        top: -360px;
+        
     }
 
 
@@ -142,6 +129,9 @@
     .cuerpo {
 
         display: block;
+        width: 100%;
+        
+        text-align: center;
     
     }
 
@@ -181,9 +171,8 @@
 
     .hobbies {
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        display: block;
+        width: 87%;
         font-size: 14px;
        
         color: #03486a;
@@ -231,9 +220,7 @@
 
     .codo {
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        display: block;
 
         font-size: 30px;
         margin: 25px;
@@ -243,7 +230,7 @@
     }
 
     .imagencodo {
-        margin-left: 100px;
+        margin-left: 50px;
         margin-right: 50px;
 
     }
@@ -251,7 +238,10 @@
     .por-que-estudio {
 
         margin-left: 50px;
-        margin-right: 100px;
+        margin-right: 50px;
+        text-align: center;
+        margin-top: 50px;
+
 
     }
 
@@ -335,5 +325,346 @@
    .derechos {
 
         margin-top: 20px;
+
+   }
+
+    }
+
+
+
+   /*----- DESKTOP ----*/
+   @media (min-width: 1081px) {
+
+ /*----------------- HEADER ----------------*/
+ header {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #03486a;
+}
+
+.menu-menu{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+
+}
+#titulado {
+    color: #ffd500;
+    margin: 20px;
+    margin-left: 200px;
+
+    position: relative;
+    top: -350px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+.menu-principal {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+   
+}
+
+.menu-principal a:hover {
+    background-color: #ffd500;
+    transition-duration: 30ms;
+    border-radius: 50px;
+}
+
+.contenedor {
+    display: block;
+    margin: 0 auto;
+    
+    margin-top: 30px;
+    margin-left: 300px;
+   
+    line-height: 30px;
+
+    border: 2px solid;
+    border-color: #ffd500;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    width: 70%;
+    height: 370px;
+
+}
+
+.otro-espacio {
+
+    margin-bottom: 60px;
+}
+
+.imagen2 {
+    margin: 5px;
+    padding: 10px;
+
+    position: relative;
+    right: 175px;
+    top: 10px;
+}
+
+.cuadro1 {
+
+    /*background-color: rgb(223, 226, 233);*/
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 22px;
+    border-radius: 15px;
+    margin: 20px;
+
+    margin-left: 200px;
+    margin-right: 100px;
+
+    position: relative;
+    top: -350px;
+    
+}
+
+.imagenes-en-fila {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 500px;
+    background-color: #ffd500;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+
+    position: relative;
+    top: -360px;
+}
+
+
+.cuadro4 {
+   
+    background-color: rgb(223, 226, 233);
+    border-radius: 15px;
+    margin: 20px;
+
+}
+
+.segundo-titulo {
+
+    color:#ffd500;
+    margin-top: 20px;
+
+
+}
+/*----------------- CUERPO ----------------*/
+.cuerpo {
+
+    display: block;
+
+}
+
+.titulos-de-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03486a;
+    color: #FFFFFF;
+    height: 200px;
+
+
+    /* The image used */
+    background-image: url(img/computer.jpg);
+
+    /* Set a specific height */
+    min-height: 350px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.titulo-hobbie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03486a;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+
+}
+
+.hobbies {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+   
+    color: #03486a;
+}
+
+.cuadro2 {
+
+    text-align: center;
+    background-color: rgb(223, 226, 233);
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+
+    width: 100%;
+
+}
+
+.cuadro2 p {
+    margin: 8px;
+}
+
+
+.titulo-codo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 200px;
+
+      /* The image used */
+      background-image: url(img/computer.jpg);
+
+      /* Set a specific height */
+      min-height: 350px; 
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+}
+
+.codo {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 30px;
+    margin: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.imagencodo {
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+
+.por-que-estudio {
+
+    margin-left: 50px;
+    margin-right: 100px;
+
+}
+
+
+/* CONTACTO */
+.cuadro3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 226, 233);
+    width: 100%;
+    height: 100%;
+
+    margin-top: 20px;
+}
+
+.formulario {
+
+    margin: 30px;
+
+}
+
+.mapa {
+
+    margin: 30px;
+   
+
+}
+
+/*  FORMULARIO */
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+
+    width: 100%;
+    height: 100px;
+
+}
+
+input[type=button]{
+    background-color: #03486a;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+/*----------------- FOOTER ----------------*/
+
+.pie-pagina {
+    display: block;
+    background-color:  #ffd500;
+    padding: 20px;
+    list-style-type: none;
+    color: #03486a;
+    text-align: center;
+
+
+}
+
+#social-media-icon{
+
+    margin-top: 25px;
+}
+
+.pie-pagina a {
+
+    color:#03486a;
+
+}
+
+.derechos {
+
+    margin-top: 20px;
+
+}
+
+
 
    }
