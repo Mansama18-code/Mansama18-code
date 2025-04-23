@@ -1,6 +1,6 @@
 ### Hi there 👋, i am Manuel
 <hr>
-- 🔭 I’m currently working on Cru Argentina as Digital Strategies Team Leader.
+- 🔭 I’m currently working on Cru Argentina as Digital Strategist and also an Indigitous in Argentina Community Leader.
 - 🌱 I’m currently learning about Web Development.
 - 👯 I’m looking to collaborate with other people that are passionate to use digital as a tool to help others.
 - 🤔 I’m looking for help with React Native.
