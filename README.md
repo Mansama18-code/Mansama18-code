@@ -7,6 +7,8 @@
 - 💬 Ask me about Comics, History, Bible and Digital Drawing.
 - 📫 How to reach me: mansamaniego@gmail.com.
 
+OTRO DATO
+
 <!--
 **Mansama18-code/Mansama18-code** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
