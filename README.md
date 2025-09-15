@@ -1,13 +1,11 @@
 ### Hi there 👋, i am Manuel
 <hr>
-- 🔭 I’m currently working on Cru Argentina as Digital Strategist and also an Indigitous in Argentina Community Leader.
-- 🌱 I’m currently learning about Web Development.
+- 🔭 I’m currently working on Cru Argentina as Digital Strategist and also volunteering for Indigitous Community in Latin America.
+- 🌱 I’m currently learning about Artificial Inteligence.
 - 👯 I’m looking to collaborate with other people that are passionate to use digital as a tool to help others.
 - 🤔 I’m looking for help with React Native.
 - 💬 Ask me about Comics, History, Bible and Digital Drawing.
 - 📫 How to reach me: mansamaniego@gmail.com.
-
-OTRO DATO
 
 <!--
 **Mansama18-code/Mansama18-code** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
