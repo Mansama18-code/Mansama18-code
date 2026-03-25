@@ -1,6 +1,6 @@
 ### Hi there 👋, i am Manuel
 <hr>
-- 🔭 I’m currently Serving part time with Cru Argentina as Digital Strategist and also volunteering for Indigitous Community in Latin America.
+- 🔭 I’m currently Serving part time with Cru as Digital Strategist and also volunteering for Indigitous Community in Latin America.
 - 🌱 I’m currently learning about Artificial Inteligence.
 - 👯 I’m looking to collaborate with other people that are passionate to use digital as a tool to help others.
 - 🤔 I’m looking for help with React Native.
