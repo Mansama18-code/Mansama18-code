@@ -4,7 +4,7 @@
 - 🌱 I’m currently learning about Artificial Inteligence.
 - 👯 I’m looking to collaborate with other people that are passionate to use digital as a tool to help others.
 - 🤔 I’m looking for help with React Native.
-- 💬 Ask me about Comics, History, Bible and Digital Drawing.
+- 💬 Ask me about Bible, Technology, Comics, History and Digital Drawing.
 - 📫 How to reach me: mansamaniego@gmail.com.
 
 <!--
